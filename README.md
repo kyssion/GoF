@@ -74,7 +74,7 @@
 
 ### 迭代器模式类图
 
-![](blogimg/GAF/1.png)
+![](blogimg/GoF/1.png)
 
 - aggregate：这个接口的作用是生成迭代器，也就是说数据的集成类需要集成和实现这个接口，从而可以产生自己的迭代器
 
@@ -198,7 +198,11 @@ public class Main {
         Iterator<Book> iterator = bookSelf.iterator();
         while(iterator.hasNext()){
             System.out.println(iterator.next().getBookname());
-        }### 迭代器模式
+        }
+    }
+}
+```
+### 迭代器模式
 
 这个设计模式个人在感觉上是非常常用的一种设计模式，通过将数据的遍历过程和业务逻辑结构，可以在遍历过程中分解出一些共用的遍历方法，提高效率。
 
@@ -463,7 +467,7 @@ public class Main {
 
 ### 模板方法模式类图
 
-![](blogimg/GAF/4.png)
+![](blogimg/GoF/4.png)
 
 ### 模板方法例子
 
@@ -605,7 +609,7 @@ public class Main {
 
 ### 工厂方法模式的类图
 
-![](blogimg/GAF/5.png)
+![](blogimg/GoF/5.png)
 
 从类图中可以看出项目中工厂和产品之间的关系
 
@@ -819,15 +823,17 @@ public class Singleton {
 这里使用两个if 来解决99%情况下不需要对if进行线程隔离的情况，使用volatile是为了防止指令重拍续导致的问题，分析如下：
 
 ```java
+public class test{
 public static Singleton getSingleton() {
-    if (instance == null) {                         //Single Checked
-        synchronized (Singleton.class) {
-            if (instance == null) {                 //Double Checked
-                instance = new Singleton();
+        if (instance == null) {                         //Single Checked
+            synchronized (Singleton.class) {
+                if (instance == null) {                 //Double Checked
+                    instance = new Singleton();
+                }
             }
         }
+        return instance ;
     }
-    return instance ;
 }
 ```
 
@@ -880,7 +886,7 @@ public enum EasySingleton{
 
 ### 原型模式类图
 
-![](blogimg/GAF/6.png)
+![](blogimg/GoF/6.png)
 
 根据上面所说的我的理解可以这么类比
 
@@ -893,7 +899,7 @@ public enum EasySingleton{
 
 方便理解；下面是程序的类图
 
-![](blogimg/GAF/7.png)
+![](blogimg/GoF/7.png)
 
 ### 原型模式例子
 
@@ -1041,7 +1047,7 @@ public class Main {
 
 ### 建造者模式类图
 
-![](blogimg/GAF/8.png)
+![](blogimg/GoF/8.png)
 
 ### 建造者模式实例
 

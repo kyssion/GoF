@@ -2,20 +2,17 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="e4111004-9494-49ac-828a-38606da2dcd6" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/blogimg/GAF/1.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/blogimg/GAF/10.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/blogimg/GAF/2.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/blogimg/GAF/3.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/blogimg/GAF/4.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/blogimg/GAF/5.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/blogimg/GAF/6.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/blogimg/GAF/7.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/blogimg/GAF/8.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/blogimg/GAF/9.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gitingore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitingore" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/blogimg/GAF/1.png" beforeDir="false" afterPath="$PROJECT_DIR$/blogimg/GoF/1.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/blogimg/GAF/10.png" beforeDir="false" afterPath="$PROJECT_DIR$/blogimg/GoF/10.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/blogimg/GAF/2.png" beforeDir="false" afterPath="$PROJECT_DIR$/blogimg/GoF/2.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/blogimg/GAF/3.png" beforeDir="false" afterPath="$PROJECT_DIR$/blogimg/GoF/3.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/blogimg/GAF/4.png" beforeDir="false" afterPath="$PROJECT_DIR$/blogimg/GoF/4.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/blogimg/GAF/5.png" beforeDir="false" afterPath="$PROJECT_DIR$/blogimg/GoF/5.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/blogimg/GAF/6.png" beforeDir="false" afterPath="$PROJECT_DIR$/blogimg/GoF/6.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/blogimg/GAF/7.png" beforeDir="false" afterPath="$PROJECT_DIR$/blogimg/GoF/7.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/blogimg/GAF/8.png" beforeDir="false" afterPath="$PROJECT_DIR$/blogimg/GoF/8.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/blogimg/GAF/9.png" beforeDir="false" afterPath="$PROJECT_DIR$/blogimg/GoF/9.png" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -34,11 +31,13 @@
       <usages-collector id="statistics.file.extensions.open">
         <counts>
           <entry key="gitingore" value="1" />
+          <entry key="java" value="2" />
           <entry key="md" value="1" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
         <counts>
+          <entry key="JAVA" value="2" />
           <entry key="Markdown" value="1" />
           <entry key="PLAIN_TEXT" value="1" />
         </counts>
@@ -46,12 +45,13 @@
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
           <entry key="gitingore" value="4" />
-          <entry key="md" value="117" />
+          <entry key="md" value="176" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="Markdown" value="117" />
+          <entry key="JAVA" value="19" />
+          <entry key="Markdown" value="157" />
           <entry key="PLAIN_TEXT" value="4" />
         </counts>
       </usages-collector>
@@ -62,7 +62,7 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/.gitingore">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="147">
+            <state relative-caret-position="-420">
               <caret line="7" column="21" selection-start-line="7" selection-start-column="21" selection-end-line="7" selection-end-column="21" />
             </state>
           </provider>
@@ -72,8 +72,8 @@
         <entry file="file://$PROJECT_DIR$/README.md">
           <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
             <state split_layout="SPLIT">
-              <first_editor relative-caret-position="299">
-                <caret line="1170" column="17" selection-start-line="1170" selection-start-column="17" selection-end-line="1170" selection-end-column="17" />
+              <first_editor relative-caret-position="169">
+                <caret line="827" column="8" selection-start-line="827" selection-start-column="8" selection-end-line="827" selection-end-column="8" />
                 <folding>
                   <element signature="e#108#109#0" expanded="true" />
                   <element signature="e#144#145#0" expanded="true" />
@@ -93,6 +93,12 @@
                   <element signature="e#242#243#0" expanded="true" />
                   <element signature="e#467#468#0" expanded="true" />
                   <element signature="e#525#526#0" expanded="true" />
+                  <element signature="e#108#109#0" expanded="true" />
+                  <element signature="e#144#145#0" expanded="true" />
+                  <element signature="e#178#179#0" expanded="true" />
+                  <element signature="e#209#210#0" expanded="true" />
+                  <element signature="e#256#257#0" expanded="true" />
+                  <element signature="e#296#297#0" expanded="true" />
                   <element signature="e#173#174#0" expanded="true" />
                   <element signature="e#222#223#0" expanded="true" />
                   <element signature="e#445#446#0" expanded="true" />
@@ -190,6 +196,14 @@
       </file>
     </leaf>
   </component>
+  <component name="FindInProjectRecents">
+    <findStrings>
+      <find>GAF</find>
+    </findStrings>
+    <replaceStrings>
+      <replace>GoF</replace>
+    </replaceStrings>
+  </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
@@ -242,7 +256,18 @@
               <item name="GoF" type="b2602c69:ProjectViewProjectNode" />
               <item name="GoF" type="462c0819:PsiDirectoryNode" />
               <item name="blogimg" type="462c0819:PsiDirectoryNode" />
-              <item name="GAF" type="462c0819:PsiDirectoryNode" />
+              <item name="GoF" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="GoF" type="b2602c69:ProjectViewProjectNode" />
+              <item name="GoF" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="GoF" type="b2602c69:ProjectViewProjectNode" />
+              <item name="GoF" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="Gof" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -255,7 +280,7 @@
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1534053315912" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1534053727412" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
@@ -291,12 +316,12 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1534052855797</updated>
-      <workItem from="1534052857133" duration="418000" />
+      <workItem from="1534052857133" duration="908000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="418000" />
+    <option name="totallyTimeSpent" value="908000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="-1" width="1600" height="873" extended-state="6" />
@@ -308,14 +333,14 @@
       <window_info id="UI Designer" />
       <window_info id="Capture Tool" />
       <window_info id="Learn" />
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.24967825" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.24967825" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info anchor="bottom" id="Version Control" />
-      <window_info anchor="bottom" id="Terminal" visible="true" weight="0.33020133" />
+      <window_info anchor="bottom" id="Terminal" weight="0.33020133" />
       <window_info anchor="bottom" id="Event Log" side_tool="true" />
       <window_info anchor="bottom" id="Database Changes" show_stripe_button="false" />
       <window_info anchor="bottom" id="Message" order="0" />
-      <window_info anchor="bottom" id="Find" order="1" />
+      <window_info active="true" anchor="bottom" id="Find" order="1" visible="true" weight="0.32885906" />
       <window_info anchor="bottom" id="Run" order="2" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
@@ -342,7 +367,7 @@
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/.gitingore">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="147">
+        <state relative-caret-position="-420">
           <caret line="7" column="21" selection-start-line="7" selection-start-column="21" selection-end-line="7" selection-end-column="21" />
         </state>
       </provider>
@@ -350,8 +375,8 @@
     <entry file="file://$PROJECT_DIR$/README.md">
       <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
         <state split_layout="SPLIT">
-          <first_editor relative-caret-position="299">
-            <caret line="1170" column="17" selection-start-line="1170" selection-start-column="17" selection-end-line="1170" selection-end-column="17" />
+          <first_editor relative-caret-position="169">
+            <caret line="827" column="8" selection-start-line="827" selection-start-column="8" selection-end-line="827" selection-end-column="8" />
             <folding>
               <element signature="e#108#109#0" expanded="true" />
               <element signature="e#144#145#0" expanded="true" />
@@ -371,6 +396,12 @@
               <element signature="e#242#243#0" expanded="true" />
               <element signature="e#467#468#0" expanded="true" />
               <element signature="e#525#526#0" expanded="true" />
+              <element signature="e#108#109#0" expanded="true" />
+              <element signature="e#144#145#0" expanded="true" />
+              <element signature="e#178#179#0" expanded="true" />
+              <element signature="e#209#210#0" expanded="true" />
+              <element signature="e#256#257#0" expanded="true" />
+              <element signature="e#296#297#0" expanded="true" />
               <element signature="e#173#174#0" expanded="true" />
               <element signature="e#222#223#0" expanded="true" />
               <element signature="e#445#446#0" expanded="true" />
